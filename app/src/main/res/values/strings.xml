@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Tech Jobs</string>
+
+    <string-array name="Jobs">
+        <item>Machine Learning</item>
+        <item>IT</item>
+        <item>Software Engineering</item>
+        <item>Web Development</item>
+        <item>Mobile Development</item>
+        <item>Artificial Intelligence</item>
+        <item>Cyber Security</item>
+    </string-array>
+
+</resources>

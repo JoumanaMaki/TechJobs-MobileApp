@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#D4EAF4"
+    >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadJobs"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mesgjob"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#0C7474"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Add Jobs"
+        android:textColor="#0C7474"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="The aim of this form is to add jobs to the application."
+        android:textColor="#0C7474"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="cursive"
+        android:layout_gravity="center"
+        android:hint="  Title"
+        android:textColorHint="@color/white"
+        android:textSize="25dp"
+        android:drawableLeft="@drawable/ic_baseline_title_24"
+        android:background="#440C7474"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:id="@+id/etTitleJob"
+        android:inputType="text"
+        android:textColor="@color/white"/>
+
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="cursive"
+        android:layout_gravity="center"
+        android:hint="  Company Name"
+        android:textColorHint="@color/white"
+        android:textSize="25dp"
+        android:drawableLeft="@drawable/ic_baseline_card_travel_24"
+        android:background="#440C7474"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:id="@+id/etCompanyName"
+        android:inputType="text"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="cursive"
+        android:layout_gravity="center"
+        android:hint="  Company Number"
+        android:textColorHint="@color/white"
+        android:textSize="25dp"
+        android:drawableLeft="@drawable/ic_baseline_phone_24"
+        android:background="#440C7474"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:id="@+id/etCpompanyNumber"
+        android:inputType="number"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="cursive"
+        android:layout_gravity="center"
+        android:hint="  Company Email"
+        android:textColorHint="@color/white"
+        android:textSize="25dp"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:background="#440C7474"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:id="@+id/etCpompanyEmail"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="cursive"
+        android:layout_gravity="center"
+        android:hint="  Job Requirements"
+        android:textColorHint="@color/white"
+        android:textSize="25dp"
+        android:drawableLeft="@drawable/ic_baseline_request_quote_24"
+        android:background="#440C7474"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:id="@+id/etRequirements"
+        android:inputType="text"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="cursive"
+        android:layout_gravity="center"
+        android:hint="  Job Objectives"
+        android:textColorHint="@color/white"
+        android:textSize="25dp"
+        android:drawableLeft="@drawable/ic_baseline_diversity_3_24"
+        android:background="#440C7474"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:id="@+id/etObjectives"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"/>
+
+
+
+    <TextView
+
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Job Type"
+        android:textColor="@color/white"
+
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="#440C7474"/>
+    <RadioGroup
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#440C7474"
+        android:layout_gravity="center"
+        >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp"
+            android:text="Remote"
+            android:textColor="@color/white"
+            android:id="@+id/rbremote"
+            android:textStyle="bold"
+            android:checked="true"
+            />
+
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textSize="15dp"
+            android:text="On Place"
+            android:textColor="@color/white"
+            android:id="@+id/rbonplace"
+            android:textStyle="bold"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textSize="15dp"
+            android:text="Hybrid"
+            android:textColor="@color/white"
+            android:id="@+id/rbhybrid"
+            android:textStyle="bold"
+            />
+    </RadioGroup>
+
+
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="cursive"
+        android:layout_gravity="center"
+        android:id="@+id/spCategory"
+        android:background="#440C7474"
+        android:padding="15dp"
+        android:layout_marginBottom="10sp"
+        android:textStyle="bold"
+        android:entries="@array/Jobs"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        >
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose"
+            android:id="@+id/btnjobcompany"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/imgjobcompany"
+            android:background="#0C7474"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:id="@+id/btnjobupload"
+
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
+</ScrollView>

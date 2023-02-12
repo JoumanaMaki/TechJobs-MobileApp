@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ml_item"
+        android:title="Machine Learning"/>
+
+    <item
+        android:id="@+id/it_item"
+        android:title="IT"/>
+
+    <item
+        android:id="@+id/se"
+        android:title="Software Engineering"/>
+
+    <item
+        android:id="@+id/web"
+        android:title="Web Development"/>
+
+    <item
+        android:id="@+id/mobile"
+        android:title="Mobile Development"/>
+    <item
+        android:id="@+id/artificial_item"
+        android:title="Atficial Intelligence"/>
+
+
+    <item
+        android:id="@+id/cyber"
+        android:title="Cyber Security"/>
+
+    <item
+        android:id="@+id/testimonial_item"
+        android:title="Add feedback"/>
+
+
+
+
+
+</menu>

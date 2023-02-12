@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#D4EAF4"
+    >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserDashboard"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvuserOptions"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/greetinguser"
+        android:paddingLeft="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome,  "
+            android:layout_marginTop="40dp"
+            android:textSize="25dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#005A52"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:textColor="#0C7474"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:id="@+id/tvuserName"/>
+    </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/showRoadmaps"
+            android:layout_width="190dp"
+            android:layout_height="155dp"
+            android:layout_below="@+id/greetinguser"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/roadmapp"
+            android:scaleType="centerCrop"
+            android:backgroundTint="#B2D1CE"
+            android:onClick="viewuserRoadmap"/>
+
+        <ImageButton
+            android:layout_width="190dp"
+            android:layout_height="155dp"
+            android:layout_below="@+id/greetinguser"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/showRoadmaps"
+            android:id="@+id/showJobs"
+            android:backgroundTint="#B2D1CE"
+            android:src="@drawable/jobs"
+            android:onClick="viewuserJobs"/>
+
+        <TextView
+            android:id="@+id/tvroad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/showRoadmaps"
+            android:layout_marginLeft="40dp"
+
+            android:text="Roadmaps"
+            android:textColor="#005A52"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/showRoadmaps"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="0dp"
+            android:text="Jobs"
+            android:textSize="25dp"
+            android:id="@+id/tvjobs"
+            android:textColor="#005A52"
+            android:textStyle="bold"/>
+
+
+    <ImageButton
+        android:id="@+id/showBlogsuser"
+        android:layout_width="190dp"
+        android:layout_height="155dp"
+        android:layout_below="@+id/tvroad"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/news"
+        android:backgroundTint="#B2D1CE"
+        android:scaleType="centerCrop"
+        android:onClick="viewBlogsuser"
+        />
+
+    <ImageButton
+        android:layout_width="190dp"
+        android:layout_height="155dp"
+        android:layout_below="@+id/tvjobs"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/showRoadmaps"
+        android:id="@+id/Showtestimonialsuser"
+        android:scaleType="fitXY"
+        android:backgroundTint="#B2D1CE"
+        android:src="@drawable/testimonials"
+        android:onClick="viewTestimonialsuser"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/showBlogsuser"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="0dp"
+        android:id="@+id/tvblog"
+        android:text="Blogs"
+        android:textSize="25dp"
+        android:textColor="#005A52"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Showtestimonialsuser"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="0dp"
+        android:text="Testimonials"
+        android:textSize="25dp"
+        android:id="@+id/tvtestimonial"
+        android:textColor="#005A52"
+        android:textStyle="bold"/>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_marginTop="670dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "551017907590",
+    "project_id": "otpverificatrion",
+    "storage_bucket": "otpverificatrion.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551017907590:android:fc48950037124e0e845807",
+        "android_client_info": {
+          "package_name": "com.example.sweetshopadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551017907590-ooqkj1hsn81o5bgrmotvlrbsiidj3kl9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwCqw--Jqc_XwK2qiDuQZSRMG9c1YBzoY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551017907590-ooqkj1hsn81o5bgrmotvlrbsiidj3kl9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

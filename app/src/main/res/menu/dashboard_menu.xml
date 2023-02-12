@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/roadmap_item"
+        android:title="Roadmaps"/>
+
+
+    <item
+        android:id="@+id/blog_item"
+        android:title="Blogs"/>
+
+    <item
+        android:id="@+id/job_item"
+        android:title="Jobs"/>
+
+    <item
+        android:id="@+id/testimonial_item"
+        android:title="Testimonials"/>
+
+
+
+
+</menu>
